@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/conta"
+    tools:context=".MainActivity"
+
+    android:background="@android:color/white">
+
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <!--
+    <FrameLayout
+        android:id="@+id/container1"
+        android:layout_width="70dp"
+        android:background="@android:color/transparent"
+        android:layout_height="70dp"
+        android:layout_marginTop="91dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/card"
+            android:transitionName="prueba"/>
+
+    </FrameLayout> -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/containtRadius"
+        android:background="@drawable/campo"
+        android:visibility="invisible"
+        android:layout_marginTop="91dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="145dp"
+            android:clickable="true"
+            android:onClick="portero"
+            android:background="@drawable/images"/>
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="108dp"
+            android:clickable="true"
+            android:background="@drawable/images"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="203dp"
+            android:clickable="true"
+            android:background="@drawable/images"/>
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:background="@drawable/images"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="290dp"
+
+            android:clickable="true"
+            android:background="@drawable/images"/>
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="108dp"
+            android:clickable="true"
+            android:background="@drawable/images"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="203dp"
+            android:clickable="true"
+            android:background="@drawable/images"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:background="@drawable/images"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="290dp"
+
+            android:clickable="true"
+            android:background="@drawable/images"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="108dp"
+            android:clickable="true"
+            android:background="@drawable/images"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="203dp"
+            android:clickable="true"
+            android:background="@drawable/images"/>
+
+
+
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

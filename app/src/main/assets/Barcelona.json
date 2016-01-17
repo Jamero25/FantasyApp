@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "imagen":"drawable/bravo",
+        "name":"Claudio Bravo",
+        "team":"Barcelona F.C",
+        "valor":"8.6"
+    },
+    {
+       "id":2,
+       "imagen":"drawable/ter",
+       "name":"Ter Stegen",
+       "team":"Barcelona F.C",
+       "valor":"8.0"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "imagen":"drawable/dani",
+        "name":"Daniel Hernández",
+        "team":"Tenerife F.C",
+        "valor":"7.6"
+    },
+    {
+       "id":2,
+       "imagen":"drawable/alain",
+       "name":"Alain Baroja",
+       "team":"Caracas F.C",
+       "valor":"7.4"
+    }
+]

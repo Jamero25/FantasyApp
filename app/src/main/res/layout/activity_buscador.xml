@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/Containjugador"
+    tools:context="com.example.usuario.fantasyapp.BuscadorActivity">
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLeft"
+        android:layout_marginLeft="99dp"
+        android:text="Por País"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRigth"
+        android:text="Por Liga"
+        android:layout_toRightOf="@+id/btnLeft"
+        />
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="90dp"
+     >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerteam"
+        android:scrollbars="vertical"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </android.support.v7.widget.RecyclerView>
+</FrameLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="android:windowSharedElementExitTransition">@transition/transition_a</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/transition_a</item>
+
+    </style>
+</resources>

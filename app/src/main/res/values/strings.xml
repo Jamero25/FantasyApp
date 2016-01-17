@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FantasyApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity2">Activity2</string>
+    <string name="title_activity_buscador">BuscadorActivity</string>
+    <string name="title_activity_prueba_fragment">PruebaFragment</string>
+    <string name="buscador">Buscador</string>
+    <string name="title_activity_details_list_player">DetailsListPlayer</string>
+    <string name="title_activity_info_player">InfoPlayerActivity</string>
+</resources>

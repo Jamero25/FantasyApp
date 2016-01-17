@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "imagen":"drawable/degea",
+        "name":"De Gea",
+        "team":"Manchester United F.C",
+        "valor":"9.0"
+    },
+    {
+       "id":2,
+       "imagen":"drawable/casillas",
+       "name":"Casillas",
+       "team":"Real Madrid F.C",
+       "valor":"8.4"
+    }
+]

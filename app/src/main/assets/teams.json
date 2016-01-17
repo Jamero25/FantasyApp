@@ -1,0 +1,12 @@
+[
+    {
+        "id":1,
+        "name":"Barcelona",
+        "description":"drawable/barcelona"
+    },
+    {
+        "id":2,
+        "name":"Madrid",
+        "description":"drawable/real"
+    }
+]
